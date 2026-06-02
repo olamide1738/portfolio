@@ -45,6 +45,11 @@ export default function ProjectPage({ darkMode, onToggleDark }) {
             <span className="pp-year">{project.year}</span>
           </div>
           <h1 className="pp-title">{project.title}</h1>
+          {project.link && (
+            <a href={project.link} target="_blank" rel="noreferrer" className="pp-live-link">
+              Visit site ↗
+            </a>
+          )}
         </div>
 
         <div className="pp-image-wrap reveal">
