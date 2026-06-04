@@ -4,6 +4,7 @@ import { projects } from '../data/projects'
 import Navbar from '../components/Navbar'
 import ScrollProgress from '../components/ScrollProgress'
 import { usePageTransition } from '../context/TransitionContext'
+import { useSEO } from '../hooks/useSEO'
 
 export default function ProjectPage({ darkMode, onToggleDark }) {
   const { slug } = useParams()
@@ -12,6 +13,13 @@ export default function ProjectPage({ darkMode, onToggleDark }) {
   const project = projects[index]
   const prev = projects[index - 1]
   const next = projects[index + 1]
+
+  useSEO({
+    title: project ? `${project.title} — ${project.category}` : 'Project',
+    description: project ? project.overview.slice(0, 155).trimEnd() + '…' : undefined,
+    path: `/work/${slug}`,
+    image: project?.image,
+  })
 
   useEffect(() => { window.scrollTo(0, 0) }, [slug])
 

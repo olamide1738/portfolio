@@ -17,7 +17,7 @@ export const projects = [
     slug: 'bdw',
     title: 'Building Design Workshop',
     category: 'Web Design & Development',
-    image: 'https://framerusercontent.com/images/mlIpIRW7jAKrD35ozjGpM2gHsI.jpg',
+    image: '/bdw-cover.jpg',
     ratio: '16/9',
     year: '2025',
     overview: `A full-featured website for BDW, a multi-disciplinary architectural practice headquartered in Yaba, Lagos, established in 2008. The site needed to communicate the firm's design philosophy, showcase completed projects, and serve as a destination for potential clients and collaborators.`,
@@ -25,6 +25,7 @@ export const projects = [
     outcome: `Reduced the team's content update cycle from weeks (developer-dependent) to hours — entirely CMS-driven. Page load scores improved from ~62 to 94 on Lighthouse after performance optimisation, and the site now ranks for key search terms in the Lagos architecture space.`,
     tech: ['React', 'TypeScript', 'Sanity CMS', 'Vite'],
     services: ['Frontend Development', 'CMS Integration', 'Web Design'],
+    link: 'https://bdw-delta.vercel.app',
   },
   {
     slug: 'property-finder',

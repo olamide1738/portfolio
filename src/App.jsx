@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { useSEO } from './hooks/useSEO'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Lenis from 'lenis'
 import Navbar from './components/Navbar'
@@ -15,11 +16,15 @@ import CursorEffect from './components/CursorEffect'
 import Intro from './components/Intro'
 import NoiseOverlay from './components/NoiseOverlay'
 import SpotlightCursor from './components/SpotlightCursor'
+import Process from './components/Process'
+import Notes from './components/Notes'
 import ProjectPage from './pages/ProjectPage'
 import { TransitionProvider } from './context/TransitionContext'
 import './App.css'
 
 function HomePage({ darkMode, onToggleDark }) {
+  useSEO({ path: '/' })
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => entries.forEach((e) => {
@@ -41,6 +46,8 @@ function HomePage({ darkMode, onToggleDark }) {
         <About />
         <Experience />
         <Skills />
+        <Process />
+        <Notes />
         <Testimonials />
         <Contact />
       </main>
