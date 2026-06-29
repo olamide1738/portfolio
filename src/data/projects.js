@@ -17,7 +17,7 @@ export const projects = [
     slug: 'arabella',
     title: 'Arabella Landscape Limited',
     category: 'Web Design & Development',
-    image: 'https://arabella-landscape.vercel.app/assets/images/hero.png',
+    image: '/arabella-cover.jpg',
     ratio: '16/9',
     year: '2025',
     overview: `Arabella Landscape Limited is Nigeria's leading landscape architecture and site development firm — established in Lagos in 1990, with over 35 years of practice and a team of 50+ specialists across Lagos, Abuja, Port Harcourt, and Ibadan. Their brief was a full digital overhaul: a site that matched the ambition and scale of their work, served every client type they deal with (residential, corporate, government, hospitality, developers), and replaced a decade-old static presence that gave no picture of who they actually are.`,
