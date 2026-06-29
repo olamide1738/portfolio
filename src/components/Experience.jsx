@@ -1,10 +1,17 @@
 const jobs = [
   {
-    company: 'Fusion23',
-    role: 'Frontend & Mobile Developer',
+    company: 'Studio Sabi',
+    role: 'CEO',
     period: '2025 to Present',
     description:
-      'Building web and mobile products for clients across various industries. Responsible for the full development cycle on each engagement, from initial architecture decisions through to deployment and handoff. Delivering clean, performant applications using React on the web and React Native on mobile, with a consistent focus on code quality, responsiveness, and user experience across every project.',
+      'Founded and leading Studio Sabi, a creative development studio delivering web and mobile products for clients across various industries. Overseeing the full business from client relationships and project direction through to hands-on development and delivery.',
+  },
+  {
+    company: 'Fusion23',
+    role: 'Lead Frontend Engineer',
+    period: '2025 to Present',
+    description:
+      'Leading frontend development on web and mobile products for clients across various industries. Responsible for the full development cycle on each engagement, from initial architecture decisions through to deployment and handoff. Delivering clean, performant applications using React on the web and React Native on mobile, with a consistent focus on code quality, responsiveness, and user experience across every project.',
   },
   {
     company: 'Mactavis Digital',
