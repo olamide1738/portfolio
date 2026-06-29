@@ -4,14 +4,14 @@ const jobs = [
     role: 'Frontend & Mobile Developer',
     period: '2025 to Present',
     description:
-      'Building web and mobile products for clients across various industries, delivering clean, performant applications using React and React Native.',
+      'Building web and mobile products for clients across various industries. Responsible for the full development cycle on each engagement, from initial architecture decisions through to deployment and handoff. Delivering clean, performant applications using React on the web and React Native on mobile, with a consistent focus on code quality, responsiveness, and user experience across every project.',
   },
   {
     company: 'Mactavis Digital',
     role: 'Frontend & Mobile Developer',
     period: '2021 to 2025',
     description:
-      'Developed and maintained responsive web and mobile applications using React, Next.js, Tailwind CSS, React Native and Flutter. Built custom WordPress themes and plugins, optimised website performance (improving page load times by an average of 25%) and implemented SEO best practices across client projects.',
+      'Developed and maintained responsive web and mobile applications across a wide range of client projects, working primarily with React, Next.js and Tailwind CSS on the web, and React Native and Flutter on mobile. Built and customised WordPress themes and plugins for clients who needed CMS-driven sites with bespoke functionality. Took ownership of performance across the portfolio, identifying and resolving bottlenecks that improved average page load times by 25%. Applied SEO best practices consistently across projects, covering semantic markup, metadata, page speed and crawlability.',
   },
 ]
 
