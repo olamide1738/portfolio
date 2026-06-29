@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 // ← Update this to your exact Vercel URL (or custom domain) before going live
 export const SITE_URL = 'https://olamideowolabi.vercel.app'
 
-const DEFAULT_TITLE = 'Olamide Owolabi — Frontend & Mobile Developer'
+const DEFAULT_TITLE = 'Olamide Owolabi | Frontend & Mobile Developer'
 const DEFAULT_DESCRIPTION =
   'Frontend & mobile developer with 5 years of experience building clean, polished digital products for startups and businesses. Based in Lagos, Nigeria.'
 const DEFAULT_IMAGE = `${SITE_URL}/og-image.png`

@@ -3,7 +3,7 @@ export const notes = [
     slug: 'building-for-nigerian-users',
     title: 'Building for Nigerian Users: What Changes When Bandwidth Is the Constraint',
     excerpt:
-      `Most front-end advice assumes a fast, stable connection. Here's what actually matters when your users are on 3G in Lagos during peak hours — and how I approach it on every project.`,
+      `Most frontend advice assumes a fast, stable connection. Here's what actually matters when your users are on 3G in Lagos during peak hours, and how I approach it on every project.`,
     category: 'Performance',
     date: 'May 2025',
     readTime: '5 min read',
@@ -12,7 +12,7 @@ export const notes = [
     slug: 'flutter-vs-react-native-2025',
     title: 'Flutter vs React Native in 2025: Notes from Someone Who Uses Both',
     excerpt:
-      `I've shipped production apps in both. They're not interchangeable — each wins in specific situations. This is an honest breakdown based on real client projects, not benchmarks.`,
+      `I've shipped production apps in both. They're not interchangeable. Each wins in specific situations. This is an honest breakdown based on real client projects, not benchmarks.`,
     category: 'Mobile',
     date: 'Apr 2025',
     readTime: '7 min read',

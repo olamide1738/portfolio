@@ -3,7 +3,7 @@ const steps = [
     number: '01',
     title: 'Discovery',
     description:
-      'We align on the problem before anything else — goals, users, constraints, and what success looks like. I ask a lot of questions upfront so there are no surprises later.',
+      'We align on the problem before anything else: goals, users, constraints, and what success looks like. I ask a lot of questions upfront so there are no surprises later.',
   },
   {
     number: '02',
@@ -21,7 +21,7 @@ const steps = [
     number: '04',
     title: 'Polish',
     description:
-      'Interactions, performance, responsiveness, edge cases. This is where good becomes finished — the details most people skip.',
+      'Interactions, performance, responsiveness, edge cases. This is where good becomes finished. The details most people skip.',
   },
   {
     number: '05',

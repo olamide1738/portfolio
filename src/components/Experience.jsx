@@ -1,17 +1,17 @@
 const jobs = [
   {
     company: 'Fusion23',
-    role: 'Front-End & Mobile Developer',
-    period: '2025–Present',
+    role: 'Frontend & Mobile Developer',
+    period: '2025 to Present',
     description:
       'Building web and mobile products for clients across various industries, delivering clean, performant applications using React and React Native.',
   },
   {
     company: 'Mactavis Digital',
-    role: 'Front-End & Mobile Developer',
-    period: '2021–2025',
+    role: 'Frontend & Mobile Developer',
+    period: '2021 to 2025',
     description:
-      'Developed and maintained responsive web and mobile applications using React, Next.js, Tailwind CSS, React Native and Flutter. Built custom WordPress themes and plugins, optimised website performance — improving page load times by an average of 25% — and implemented SEO best practices across client projects.',
+      'Developed and maintained responsive web and mobile applications using React, Next.js, Tailwind CSS, React Native and Flutter. Built custom WordPress themes and plugins, optimised website performance (improving page load times by an average of 25%) and implemented SEO best practices across client projects.',
   },
 ]
 

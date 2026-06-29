@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react'
 import HeroVisual from './HeroVisual'
 import { useScramble } from '../hooks/useScramble'
 
-const SCROLL_WORDS = "a front-end & mobile developer with 5 years of experience, building clean, polished digital products for startups and businesses.".split(' ')
+const SCROLL_WORDS = "a frontend & mobile developer with 5 years of experience, building clean, polished digital products for startups and businesses.".split(' ')
 
 export default function Hero() {
   const sectionRef = useRef(null)

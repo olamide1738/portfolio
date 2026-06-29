@@ -15,7 +15,7 @@ export default function ProjectPage({ darkMode, onToggleDark }) {
   const next = projects[index + 1]
 
   useSEO({
-    title: project ? `${project.title} — ${project.category}` : 'Project',
+    title: project ? `${project.title} | ${project.category}` : 'Project',
     description: project ? project.overview.slice(0, 155).trimEnd() + '…' : undefined,
     path: `/work/${slug}`,
     image: project?.image,
